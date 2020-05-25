@@ -1,5 +1,5 @@
 function diamond (x){
-    var result = new String [2 * (x-64)-1];
+    let result = []
     if (x =='A'){
         result[0] = "A";
     } else if (x == 'B'){
@@ -705,9 +705,9 @@ function diamond (x){
     }
 
 
-    } 
+    
     return result;
-
+}
 module.exports = {
     diamond
 }
